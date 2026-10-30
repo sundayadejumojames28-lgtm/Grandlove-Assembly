@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Grandlove Assembly</title>
+<meta name="description" content="Contact Grandlove Assembly for church enquiries, the UNIOSUN Students Fellowship, or Grandlove Academy sponsorship.">
+<meta property="og:title" content="Contact Us | Grandlove Assembly">
+<meta property="og:description" content="Contact Grandlove Assembly for church enquiries, the UNIOSUN Students Fellowship, or Grandlove Academy sponsorship.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+ <div class="container nav-wrap">
+  <a class="brand" href="index.html" aria-label="Grandlove Assembly home">
+   <div class="logo-slot" title="Grandlove Assembly logo placeholder">ASSEMBLY<br>LOGO</div>
+   <div class="brand-text"><strong>GRANDLOVE ASSEMBLY</strong><span>GOD IS LOVE</span></div>
+  </a>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+  <nav class="main-nav" id="main-nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Church Services</a></li><li><a href="sermons.html">Sermons &amp; Bible Study</a></li><li><a href="fellowship.html">Students Fellowship</a></li><li><a href="academy.html">Grandlove Academy</a></li><li><a href="events.html">Events</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html" aria-current="page">Contact Us</a></li></ul></nav>
+ </div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="container"><span class=eyebrow style=color:#9fbaf0>Get in Touch</span><h1>Contact Us</h1><p>We'd love to hear from you. Reach out with any question, prayer request or partnership enquiry.</p></div></section>
+<section class="section"><div class="container grid grid-3">
+ <article class="card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Grandlove Assembly</h3><ul class="info-list">
+ <li><strong>Address</strong><span class="todo">[Exact church address]</span></li><li><strong>Phone</strong><span class="todo">[Church phone number]</span></li>
+ <li><strong>WhatsApp</strong><span class="todo">[WhatsApp number]</span></li><li><strong>Email</strong><span class="todo">[Email address]</span></li></ul></article>
+ <article class="card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><h3>Grandlove Academy</h3><ul class="info-list">
+ <li><strong>Address</strong>Aba Aranhin, Owode-Ede, Osun State, Nigeria</li><li><strong>Phone</strong><span class="todo">[Academy phone number]</span></li><li><strong>Email</strong><span class="todo">[Academy email]</span></li></ul></article>
+ <article class="card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><h3>Follow Us</h3><ul class="info-list">
+ <li><strong>Facebook</strong><span class="todo">[Facebook link]</span></li><li><strong>Instagram</strong><span class="todo">[Instagram link]</span></li><li><strong>YouTube</strong><span class="todo">[YouTube link]</span></li><li><strong>X / Twitter</strong><span class="todo">[X link]</span></li></ul></article>
+</div></section>
+<section class="section pale"><div class="container" style="max-width:860px">
+ <div class="center section-head reveal"><span class="eyebrow">Enquiries</span><h2>Send Us a Message</h2><p class="lead">Choose the type of enquiry below.</p></div>
+ <div class="card reveal">
+ <div class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" aria-controls="form-church">Church Enquiry</button>
+  <button role="tab" aria-selected="false" aria-controls="form-fellowship">Students Fellowship</button>
+  <button role="tab" aria-selected="false" aria-controls="form-academy">Academy Sponsorship</button>
+ </div>
+ <form class="form" id="form-church" data-enquiry  role="tabpanel">
+<input type="hidden" name="_subject" value="Church Enquiry"><input type="hidden" name="enquiry_type" value="Church Enquiry">
+<div class="row"><label>Full name<input name="name" required maxlength="100" autocomplete="name"></label><label>Email<input type="email" name="email" required maxlength="255" autocomplete="email"></label></div>
+<div class="row"><label>Phone (optional)<input type="tel" name="phone" maxlength="30" autocomplete="tel"></label><label>Topic<select name="topic"><option>General enquiry</option><option>Prayer request</option><option>Service information</option><option>Other</option></select></label></div>
+<label>Message<textarea name="message" rows="5" required maxlength="2000"></textarea></label>
+<div><button class="btn btn-primary" type="submit">Send Enquiry</button></div>
+<div class="form-status" role="status" aria-live="polite"></div></form>
+ <form class="form" id="form-fellowship" data-enquiry hidden role="tabpanel">
+<input type="hidden" name="_subject" value="Students Fellowship Enquiry"><input type="hidden" name="enquiry_type" value="Students Fellowship Enquiry">
+<div class="row"><label>Full name<input name="name" required maxlength="100" autocomplete="name"></label><label>Email<input type="email" name="email" required maxlength="255" autocomplete="email"></label></div>
+<div class="row"><label>Phone (optional)<input type="tel" name="phone" maxlength="30" autocomplete="tel"></label><label>Department / Level<input name="department" maxlength="100"></label></div>
+<label>Message<textarea name="message" rows="5" required maxlength="2000"></textarea></label>
+<div><button class="btn btn-primary" type="submit">Send Enquiry</button></div>
+<div class="form-status" role="status" aria-live="polite"></div></form>
+ <form class="form" id="form-academy" data-enquiry hidden role="tabpanel">
+<input type="hidden" name="_subject" value="Academy Sponsorship Enquiry"><input type="hidden" name="enquiry_type" value="Academy Sponsorship Enquiry">
+<div class="row"><label>Full name<input name="name" required maxlength="100" autocomplete="name"></label><label>Email<input type="email" name="email" required maxlength="255" autocomplete="email"></label></div>
+<div class="row"><label>Phone (optional)<input type="tel" name="phone" maxlength="30" autocomplete="tel"></label><label>I am giving as<select name="giver_type"><option>Individual</option><option>Church</option><option>Organisation</option><option>Other</option></select></label></div>
+<label>Message<textarea name="message" rows="5" required maxlength="2000"></textarea></label>
+<div><button class="btn btn-primary" type="submit">Send Enquiry</button></div>
+<div class="form-status" role="status" aria-live="polite"></div></form>
+ </div></div></section>
+
+</main>
+<footer class="site-footer">
+ <div class="container">
+  <div class="footer-grid">
+   <div>
+    <div class="brand" style="margin-bottom:1rem"><div class="logo-slot">ASSEMBLY<br>LOGO</div><div class="brand-text"><strong style="color:#fff">GRANDLOVE ASSEMBLY</strong><span style="color:#9fbaf0">GOD IS LOVE</span></div></div>
+    <p>A Bible-centred Christian ministry propagating the love of Christ. 2026 Theme: <strong style="color:#fff">SHINE FORTH IN GLORY!</strong></p>
+    <p style="margin-top:.8rem;font-style:italic">“Ye are the light of the world.” — Matthew 5:14</p>
+   </div>
+   <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Church Services</a></li><li><a href="sermons.html">Sermons &amp; Bible Study</a></li><li><a href="fellowship.html">Students Fellowship</a></li></ul></div>
+   <div><h4>More</h4><ul><li><a href="academy.html">Grandlove Academy</a></li><li><a href="events.html">Events</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+   <div><h4>Meet With Us</h4><ul><li>Sunday Evening Service<br>3:30 PM</li><li>Wednesday Bible Study<br>5:00 PM</li><li><a href="academy.html#support">Support Grandlove Academy</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>&copy; <span data-year>2026</span> Grandlove Assembly. All rights reserved.</span><span>Founder &amp; Visioner: Pastor Tunde Adeyi Olawuyi</span></div>
+ </div>
+</footer>
+<button class="back-top" aria-label="Back to top">&uarr;</button>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
